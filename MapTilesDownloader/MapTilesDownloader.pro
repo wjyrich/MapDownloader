@@ -30,3 +30,11 @@ FORMS    += View/mainview.ui
 
 RESOURCES += \
     resources.qrc
+
+target.path = $$PREFIX/bin
+desktop.files = MapDownloader.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons
+icons.files = MapDownloader.png
+
+INSTALLS += target desktop icons

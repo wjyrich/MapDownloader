@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=MapDownloader
+Name=MapDownloader
+Name[zh_CN]=MapDownloader
+Icon=MapDownloader
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=MapDownloader
+Version=1.0
